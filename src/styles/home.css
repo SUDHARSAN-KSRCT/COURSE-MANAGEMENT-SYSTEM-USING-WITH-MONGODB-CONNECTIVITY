@@ -1,0 +1,90 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif; /* Changed font for better readability */
+}
+
+body {
+  background-color: #e8f6ff; /* Light gray background */
+  background-image: url('ba.webp'); /* Updated background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+    background-image: url("back.jpg");
+  max-width: 800px; /* Increased width for better content layout */
+  margin: 20px auto; /* Center the container */
+  padding: 20px;
+  background-color: #b9c7db; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  background-color: #007bff; /* Blue header background */
+  color: #fff; /* White text color */
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea,
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.delete1 {
+  background-color: #dc3545; /* Red background for delete button */
+  color: #fff; /* White text color */
+}
+
+button {
+  background-color: #007bff; /* Blue background for buttons */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.addstock {
+  margin-bottom: 20px;
+}
